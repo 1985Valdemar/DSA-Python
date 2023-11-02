@@ -1,0 +1,18 @@
+#Passo Passo Psedocodigo
+
+#inicio
+# EXIBA "BEM VINDO AO CALCULADOR DE ÁREA DE PARALELOGRAMA" 
+# PEÇA PARA USUARIO INSERIR O COMPRIMENTO DA BASE
+# ARMAZENE O COMPRIMENTO DA BASE EM UMA VARIAVEL
+# PEÇA PARA USUARIO INSERIR ALTURA
+# ARMAZENE A ALTURA EM UMA VARIAVEL
+# CALCULE A AREA DO PARALELOGRAMA: BASE * ALTURA
+# ARMAZENE O RESULSTADO EM UMA VARIAVEL
+# EXIBIR O RESULTADO
+#FIM
+
+print("BEM VINDO AO CALCULADOR DE ÁREA DE PARALELOGRAMA")
+base = float(input("Digite o valor da sua base: "))
+altura = float(input("Digite o Valor da altura: "))
+resultado = (base*altura)
+print("Seu valor do Paralelograma é:", resultado)
