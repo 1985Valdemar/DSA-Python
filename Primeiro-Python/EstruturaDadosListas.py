@@ -22,6 +22,7 @@ print(lista_1)
 del lista_1[3]
 print(lista_1)
 
+
 #Lista Dentro Lista
 listas = [[1,2,3],[10, 15, 14], [10.1, 8.7, 2.3]]
 print(listas)
