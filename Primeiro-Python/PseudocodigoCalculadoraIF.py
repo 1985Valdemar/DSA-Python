@@ -11,17 +11,17 @@
 # Realizar função
 # Mostrar resultado
 #Fim#
-print("Seja Bem Vindo Calculadora")
+print("Seja Bem Vindo Calculadora Simples")
 numero1 = float(input("Digite um Numero: "))
-funcao = str(input("Digita qual Função deseja realizar +,-,*,/ "))
+Operacao = str(input("Digita qual Operação deseja realizar +,-,*,/ "))
 numero2 = float(input("Digite um Numero: "))
-if funcao == "+":
+if Operacao == "+":
     print("Seu Resultado é:",numero1+numero2)
-elif funcao == "-":
+elif Operacao == "-":
     print("Seu Resultado é:",numero1-numero2)
-elif funcao == "*":
+elif Operacao == "*":
     print("Seu Resultado é:",numero1*numero2)
-elif funcao == "/":
+elif Operacao == "/":
     print("Seu Resultado é:",numero1/numero2)
 else:
     print("Digite Novamente aconteceu Erro")
