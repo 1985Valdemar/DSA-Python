@@ -5,7 +5,7 @@
 
 from cmath import sqrt
 
-print("\n******************* Calculadora em Python *******************")
+print("******************* Calculadora em Python *******************")
 
 print("Selecione o Número Da Operação Desejada")
 
@@ -16,7 +16,7 @@ print(" 4 - Divisão")
 print(" 5 - Potencia")
 print(" 6 - Raiz Quadrada")
 
-menuopcao = input("Qual Operação Deseja: ")
+menuopcao = input("\n Qual Operação Deseja (1/2/3/4/5/6): ")
 
 numero1 = float(input("Digite um Numero: "))
 if menuopcao == "5" or menuopcao == "6":
