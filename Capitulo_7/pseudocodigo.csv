@@ -1,0 +1,30 @@
+1. Inicialização:
+   1.1 Definir lista de palavras para o jogo
+   1.2 Escolher uma palavra aleatória da lista
+   1.3 Inicializar uma lista para armazenar as letras adivinhadas
+   1.4 Inicializar uma variável para o número máximo de tentativas
+   1.5 Inicializar uma variável para contar as tentativas do jogador
+   1.6 Inicializar uma variável para armazenar a palavra oculta
+
+2. Função para exibir a palavra oculta:
+   2.1 Para cada letra na palavra escolhida:
+       2.1.1 Se a letra estiver na lista de letras adivinhadas, exibir a letra
+       2.1.2 Caso contrário, exibir um espaço ou caractere de sublinhado
+
+3. Loop principal do jogo:
+   3.1 Enquanto o número de tentativas for menor que o número máximo permitido:
+       3.1.1 Exibir a palavra oculta
+       3.1.2 Exibir as letras adivinhadas
+       3.1.3 Solicitar ao jogador uma letra
+       3.1.4 Verificar se a letra já foi adivinhada
+       3.1.5 Se a letra estiver na palavra escolhida:
+           3.1.5.1 Adicionar a letra à lista de letras adivinhadas
+       3.1.6 Se a letra não estiver na palavra escolhida:
+           3.1.6.1 Incrementar o número de tentativas
+       3.1.7 Verificar se o jogador acertou todas as letras da palavra
+       3.1.8 Se todas as letras foram adivinhadas, o jogador venceu; encerrar o jogo
+   3.2 Se o número de tentativas atingir o máximo, o jogador perdeu; exibir a palavra correta
+
+4. Fim do jogo:
+   4.1 Exibir mensagem de vitória ou derrota
+   4.2 Perguntar ao jogador se deseja jogar novamente
