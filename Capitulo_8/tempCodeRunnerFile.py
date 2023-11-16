@@ -1,2 +1,0 @@
-
-# Atributo do objeto
